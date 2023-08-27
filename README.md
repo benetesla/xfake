@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+**Estudos em React e Props com API Fake em JSON**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao meu projeto de estudos em React, focado em entender o conceito de "props" (propriedades) e como integrar dados de uma API falsa em formato JSON. Neste projeto, vamos explorar como passar dados de um componente pai para um componente filho usando props, bem como simular uma conexão com uma API JSON para obter dados dinâmicos.
 
-## Available Scripts
+## Objetivo
 
-In the project directory, you can run:
+O objetivo deste projeto é proporcionar um entendimento sólido sobre:
 
-### `npm start`
+- O que são props em React e como usá-las para passar dados de um componente pai para um componente filho.
+- Como simular uma API em formato JSON para obter dados dinâmicos para seu aplicativo React.
+- Estruturação básica de um aplicativo React.
+- Integração de componentes e organização de código.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Pré-requisitos
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Antes de iniciar, certifique-se de ter o seguinte instalado:
 
-### `npm test`
+- Node.js e npm (ou yarn)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Configuração do Projeto
 
-### `npm run build`
+1. Clone este repositório para o seu ambiente local:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone  https://github.com/benetesla/xfake.git
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Navegue para o diretório do projeto:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   cd nome-do-repositorio
+   ```
 
-### `npm run eject`
+3. Instale as dependências do projeto:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Executando o Projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Inicie o servidor de desenvolvimento:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   npm start
+   ```
 
-## Learn More
+2. Abra o navegador e acesse [http://localhost:3000](http://localhost:3000) para visualizar o aplicativo.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Conteúdo do Projeto
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+O projeto consiste em:
 
-### Code Splitting
+- Um componente `Livro` que recebe dados do pai através de props.
+- Um componente `LivrosList` que simula a obtenção de dados de uma API em formato JSON (api/livros.json) e renderiza uma lista de livros usando o componente `Livro`.
+- Componentes `App`, `TabelaHead`, `TableFooter` e `TableBody` para compor a estrutura da tabela de livros.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## API Fake em JSON
 
-### Analyzing the Bundle Size
+O arquivo `api/livros.json` contém dados fictícios de livros em formato JSON. Esses dados serão usados para simular a obtenção de dados de uma API externa.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Aprendizado
 
-### Making a Progressive Web App
+Ao explorar este projeto, você estará se aprofundando em:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Passagem de props de componentes pai para componentes filhos.
+- Estruturação e organização básica de componentes em um aplicativo React.
+- Simulação de obtenção de dados de uma API em formato JSON.
+- Manipulação de dados dinâmicos para renderização de componentes.
 
-### Advanced Configuration
+## Contribuições
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Contribuições são bem-vindas! Se você tiver melhorias, sugestões ou correções, sinta-se à vontade para criar um pull request ou abrir uma issue neste repositório.
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Espero que este projeto de estudos seja útil para você aprender sobre React e o uso de props com uma API fake em JSON. Divirta-se explorando e aprendendo!
