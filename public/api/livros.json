@@ -1,0 +1,152 @@
+[
+  {
+    "id": "1",
+    "titulo": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "autor": "Robert C. Martin"
+  },
+  {
+    "id": "2",
+    "titulo": "Introduction to the Theory of Computation",
+    "autor": "Michael Sipser"
+  },
+  {
+    "id": "3",
+    "titulo": "The Pragmatic Programmer: Your Journey to Mastery",
+    "autor": "David Thomas, Andrew Hunt"
+  },
+  {
+    "id": "4",
+    "titulo": "JavaScript: The Good Parts",
+    "autor": "Douglas Crockford"
+  },
+  {
+    "id": "5",
+    "titulo": "Python Crash Course: A Hands-On, Project-Based Introduction to Programming",
+    "autor": "Eric Matthes"
+  },
+  {
+    "id": "6",
+    "titulo": "Design Patterns: Elements of Reusable Object-Oriented Software",
+    "autor": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides"
+  },
+  {
+    "id": "7",
+    "titulo": "Effective Java",
+    "autor": "Joshua Bloch"
+  },
+  {
+    "id": "8",
+    "titulo": "Learning React: Modern Patterns for Developing React Apps",
+    "autor": "Alex Banks, Eve Porcello"
+  },
+  {
+    "id": "9",
+    "titulo": "C# 9 and .NET 5 – Modern Cross-Platform Development",
+    "autor": "Mark J. Price"
+  },
+  {
+    "id": "10",
+    "titulo": "Head First Design Patterns",
+    "autor": "Eric Freeman, Elisabeth Robson, Bert Bates, Kathy Sierra"
+  },
+  {
+    "id": "11",
+    "titulo": "Java Concurrency in Practice",
+    "autor": "Brian Goetz, Tim Peierls, Joshua Bloch, Joseph Bowbeer, David Holmes, Doug Lea"
+  },
+  {
+    "id": "12",
+    "titulo": "Eloquent JavaScript: A Modern Introduction to Programming",
+    "autor": "Marijn Haverbeke"
+  },
+  {
+    "id": "13",
+    "titulo": "Clean Architecture: A Craftsman's Guide to Software Structure and Design",
+    "autor": "Robert C. Martin"
+  },
+  {
+    "id": "14",
+    "titulo": "Learning Python",
+    "autor": "Mark Lutz"
+  },
+  {
+    "id": "15",
+    "titulo": "Dive into Deep Learning",
+    "autor": "Aston Zhang, Zachary C. Lipton, Mu Li, Alexander J. Smola"
+  },
+  {
+    "id": "16",
+    "titulo": "Ruby on Rails Tutorial: Learn Web Development with Rails",
+    "autor": "Michael Hartl"
+  },
+  {
+    "id": "17",
+    "titulo": "Algorithms",
+    "autor": "Robert Sedgewick, Kevin Wayne"
+  },
+  {
+    "id": "18",
+    "titulo": "Learning Node.js: A Hands-On Guide to Building Web Applications in JavaScript",
+    "autor": "Marc Wandschneider"
+  },
+  {
+    "id": "19",
+    "titulo": "The Rust Programming Language",
+    "autor": "Steve Klabnik, Carol Nichols"
+  },
+  {
+    "id": "20",
+    "titulo": "Machine Learning Yearning",
+    "autor": "Andrew Ng"
+  },
+  {
+    "id": "21",
+    "titulo": "Agile Estimating and Planning",
+    "autor": "Mike Cohn"
+  },
+  {
+    "id": "22",
+    "titulo": "Learning Go: An Idiomatic Approach to Real-World Go Programming",
+    "autor": "Jon Bodner"
+  },
+  {
+    "id": "23",
+    "titulo": "Programming in Haskell",
+    "autor": "Graham Hutton"
+  },
+  {
+    "id": "24",
+    "titulo": "You Don't Know JS",
+    "autor": "Kyle Simpson"
+  },
+  {
+    "id": "25",
+    "titulo": "Database Systems: The Complete Book",
+    "autor": "Hector Garcia-Molina, Jeffrey D. Ullman, Jennifer Widom"
+  },
+  {
+    "id": "26",
+    "titulo": "Artificial Intelligence: A Modern Approach",
+    "autor": "Stuart Russell, Peter Norvig"
+  },
+  {
+    "id": "27",
+    "titulo": "Deep Learning",
+    "autor": "Yoshua Bengio, Ian Goodfellow, Aaron Courville"
+  },
+  {
+    "id": "28",
+    "titulo": "Pro Git",
+    "autor": "Scott Chacon, Ben Straub"
+  },
+  {
+    "id": "29",
+    "titulo": "Introduction to Algorithms",
+    "autor": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein"
+  },
+  {
+    "id": "30",
+    "titulo": "CSS Secrets: Better Solutions to Everyday Web Design Problems",
+    "autor": "Lea Verou"
+  }
+]
